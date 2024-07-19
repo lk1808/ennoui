@@ -22,6 +22,16 @@ const Login = () => {
                 />
               </div>
               <div class="my-3">
+                <label for="display-4">Mobile Number</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Mobile Number"
+                />
+              </div>
+
+              <div class="my-3">
                 <label for="floatingPassword display-4">Password</label>
                 <input
                   type="password"
@@ -31,10 +41,22 @@ const Login = () => {
                 />
               </div>
               <div className="my-3">
-                <p>New Here? <Link to="/register" className="text-decoration-underline text-info">Register</Link> </p>
+                <p>
+                  New Here?{" "}
+                  <Link
+                    to="/register"
+                    className="text-decoration-underline text-info"
+                  >
+                    Register
+                  </Link>{" "}
+                </p>
               </div>
               <div className="text-center">
-                <button class="my-2 mx-auto btn btn-dark" type="submit" disabled>
+                <button
+                  class="my-2 mx-auto btn btn-dark"
+                  type="submit"
+                  disabled
+                >
                   Login
                 </button>
               </div>
